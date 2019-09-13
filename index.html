@@ -1,0 +1,409 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>TBD: Patient's History</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+  <link rel="stylesheet" href="css/github-prettify-theme.css">
+  <script src="js/site.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body class="code-snippets-visible">
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <section class="header">
+      <h2 class="title">An accurate, and complete patient's history.</h2>
+      <!-- TODO: Help them download the Dropbox of files here -->
+      <a class="button button-primary" href="https://github.com/dhg/Skeleton/releases/download/2.0.4/Skeleton-2.0.4.zip" onClick="_gaq.push(['_trackEvent', 'skeleton', 'download'])">Download</a>
+      <div class="value-props row">
+        <div class="four columns value-prop">
+          <img class="value-img" src="images/feather.svg">
+          Kamal. Grandfather. 54 years old.
+        </div>
+        <div class="four columns value-prop">
+          <img class="value-img" src="images/pens.svg">
+          Purva. Mother. 28 years old.
+        </div>
+        <div class="four columns value-prop">
+          <img class="value-img" src="images/watch.svg">
+          Arish. Baby Boy. 20 days old.
+        </div>
+      </div>
+    </section>
+
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="#now">Now</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#ongoing">Ongoing</a></li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#" data-popover="#codeNavPopover">History</a>
+            <div id="codeNavPopover" class="popover">
+              <ul class="popover-list">
+                <li class="popover-item">
+                  <a class="popover-link" href="#2016">2016</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="#2007">2007</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="#2004">2004</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="#1999">1999</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="navbar-item"><a class="navbar-link" href="#questionnaire">Questionnaire</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#history">Family History</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#reports">Reports</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#about">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- TODO: Add Opinions. -->
+    <!-- TODO: Add Collabaration. -->
+    <!-- TODO: Add Fitness Activity. -->
+    <!-- TODO: Add Nutrition. -->
+    <!-- TODO: Add Sleep. -->
+    <!-- TODO: Add Location, Neighbourhood. -->
+    <!-- TODO: Integrate with Apple Health. -->
+
+    <!-- Now -->
+    <div class="docs-section" id="now">
+      <h6 class="docs-header">Now</h6>
+      <div class="row docs-example">
+        <ul>
+          <li>Still some numbing sensaton in the right. Not recovered completely, like before.</li>
+          <li>Sometimes the feet slips on the accelerator you have in a car.</li>
+          <li>Some pull and pain in the right feet.</li>
+          <li>Great recovery however.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Ongoing -->
+    <div class="docs-section" id="ongoing">
+      <h6 class="docs-header">Ongoing</h6>
+      <p><strong>Medicaton</strong></p>
+      <ul>
+        <li>Gemer DS 1 for Diabetes once daily.</li>
+        <li>Novastat CV 10 for Cholesterol once daily.</li>
+        <li>Stamlo 5mg for Blood Pressure once daily.</li>
+        <li>Ossompan - D1000 for Vitamin B12 and D once daily.</li>
+      </ul>
+      <div class="docs-example">
+        <table class="u-full-width">
+          <thead>
+            <tr>
+              <th>Marker</th>
+              <th>Jan 3</th>
+              <th>Jan 10</th>
+              <th>Jan 31</th>
+              <th>Mar 12</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Glucose Fasting</td>
+              <td>163</td>
+              <td>161</td>
+              <td>127</td>
+              <td>98</td>
+            </tr>
+            <tr>
+              <td>Blood Pressure</td>
+              <td>-</td>
+              <td>190/90</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Haemoglobin</td>
+              <td>11.3 g/dL</td>
+              <td>11.2 g/dL</td>
+              <td>11.5 g/dL</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Vitamin B12</td>
+              <td>161.1 pg/mL</td>
+              <td>-</td>
+              <td>-</td>
+              <td>485.1 pg/mL</td>
+            </tr>
+            <tr>
+              <td>Vitamin D</td>
+              <td>5.56 ng/mL</td>
+              <td>-</td>
+              <td>-</td>
+              <td>54.46 ng/mL</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 2016 -->
+    <div class="docs-section" id="2016">
+      <h6 class="docs-header">2016</h6>
+      <p>Started taking medicaton Stamlo 5mg once every morning to help with <strong>blood pressure</strong>.</p>
+    </div>
+
+    <!-- 2007 -->
+    <div class="docs-section" id="2007">
+      <h6 class="docs-header">2007</h6>
+      <p>Diagnosed with <strong>Diabetes</strong>. Started taking medication Daonil once a day every monring before breakfast.</p>
+    </div>
+
+    <!-- 2004 -->
+    <div class="docs-section" id="2004">
+      <h6 class="docs-header">2004</h6>
+      <p><strong>Sinusitis</strong> was detected but chose not to do a surgery.</p>
+    </div>
+
+    <!-- 1999 -->
+    <div class="docs-section" id="1999">
+      <h6 class="docs-header">1999</h6>
+      <div class="row docs-example">
+      <p>A blood vein in Kidney was found to be choked up that led to increase in <strong>blood pressure</strong>.</p>
+      </div>
+    </div>
+
+    <!-- Questionnaire -->
+    <div class="docs-section" id="questionnaire">
+      <h6 class="docs-header">Questionnaire</h6>
+      <div class="row docs-example">
+        <ul>
+          <li>No Asthma or any Respiratory Problems.</li>
+          <li>No Gastrointestinal disturbances.</li>
+          <li>No Bleeding, DVT (deep vein thrombosis) or blood disorders.</li>
+          <li>No Neurological problems or Epilepsy.</li>
+          <li>No Seizures.</li>
+          <li>No Knee, hip or ankle injuries (including sprains) and/or surgery.</li>
+          <li>No Shoulder, arm or back injuries (including sprains) and/or surgery.</li>
+          <li><em>Allergic to Dust and Lactose.</em></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Family History -->
+    <div class="docs-section" id="history">
+      <h6 class="docs-header">Family History</h6>
+      <div class="row docs-example">
+        <ul>
+          <li>Father had a <strong>Paralysis attack</strong> but he recoverd completely.</li>
+          <li>Father had <strong>Blood Pressure</strong>.</li>
+          <li>Mother had no diseasers or disorders whatsoever.</li>
+          <li>Father lived <strong>78</strong> <em>(1921 - 1989)</em> years. Died due to <strong>Heart Failure</strong>.</li>
+          <li>Mother lived <strong>93</strong> <em>(1925 - 2008)</em> years. Died due to <strong>Old Age</strong>.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="docs-section" id="about">
+        <h6 class="docs-header">About</h6>
+        <div class="row docs-example">
+          <ul>
+            <li>Name - Kamalchand Ganeshmal Malu</li>
+            <li>Age - 54 years old</li>
+            <li>Gender - Male</li>
+            <li>Height - 5 feet 10 inches</li>
+            <li>Weight - 76 kilograms</li>
+            <li>Body Mass Index (BMI) - 24.7</li>
+            <li>Eithinicity - Indian</li>
+            <li>Located - Surat, Gujarat India</li>
+            <li>Contact - 919823043922</li>
+          </ul>
+        </div>
+    </div>
+
+    <!-- Reports -->
+    <div class="docs-section examples" id="reports">
+      <h6 class="docs-header">Reports</h6>
+      <div class="row example">
+        <a class="example-screenshot-wrapper" target="_blank" href="pdf/reports/03-12-2019-glucose-vitamins.pdf">
+          <img class="example-screenshot" src="images/reports/03-12-2019-glucose-vitamins.jpg">
+        </a>
+        <div class="one-half offset-by-one-half column">
+          <h6 class="example-header">12 Mar'19 Glucose fasting, Vitamin B12 and Vitamin D</h6>
+          <p class="example-description"><strong>Decline</strong> in <em>glucose</em> level. <strong>Jump</strong> in <em>vitmain B12 and D</em> level.</p>
+        </div>
+      </div>
+      <div class="row example">
+        <a class="example-screenshot-wrapper" target="_blank" href="images/reports/02-05-2019-ultrasound.jpeg">
+          <img class="example-screenshot" src="images/reports/02-05-2019-ultrasound.jpeg">
+        </a>
+        <div class="one-half offset-by-one-half column">
+          <h6 class="example-header">5 Feb'19 Ultrasound, Abdomen and Pelvis</h6>
+          <p class="example-description"><strong>Gall bladder</strong> is <em>contracted</em>. <strong>Bladder</strong> is <em>partially distended</em>, normal. Liver, Pancreas, Spleen, Right Kidney, Left Kidney appear normal in size. Prostate is normal in volume. Bowel loops are normal in caliber.</p>
+          <p class="example-description"><strong>Opinion - GRADE I FATTY LIVER</strong></p>
+        </div>
+      </div>
+      <div class="row example">
+        <a class="example-screenshot-wrapper" target="_blank" href="pdf/reports/02-03-2019-urine.pdf">
+          <img class="example-screenshot" src="images/reports/02-03-2019-urine.jpg">
+        </a>
+        <div class="one-half offset-by-one-half column">
+          <h6 class="example-header">3 Feb'19 Urine</h6>
+          <p class="example-description"><strong>Creatinine</strong> and <strong>Albumin</strong> in urine are <em>normal</em>.</p>
+        </div>
+      </div>
+      <div class="row example">
+        <a class="example-screenshot-wrapper" target="_blank" href="pdf/reports/01-31-2019-hameoglobin-glucose.pdf">
+          <img class="example-screenshot" src="images/reports/01-31-2019-hameoglobin-glucose.jpg">
+        </a>
+        <div class="one-half offset-by-one-half column">
+          <h6 class="example-header">31 Jan'19 Hameoglobin Glucose</h6>
+          <p class="example-description"><strong>Glucose while fasting</strong> is in <em>Diabetes</em> interval. <strong>Hameoglobin</strong> is <em>below</em> normal level.</p>
+        </div>
+      </div>
+      <div class="row example">
+        <a class="example-screenshot-wrapper" target="_blank" href="pdf/reports/01-15-2019-urine-culture.pdf">
+          <img class="example-screenshot" src="images/reports/01-15-2019-urine-culture.jpg">
+        </a>
+        <div class="one-half offset-by-one-half column">
+          <h6 class="example-header">15 Jan'19 Urine Culture</h6>
+          <p class="example-description">No organisms detected.</p>
+        </div>
+      </div>
+      <div class="row example">
+        <a class="example-screenshot-wrapper" target="_blank" href="pdf/reports/01-10-2019-urine.pdf">
+          <img class="example-screenshot" src="images/reports/01-10-2019-urine.jpg">
+        </a>
+        <div class="one-half offset-by-one-half column">
+          <h6 class="example-header">10 Jan'19 Urine</h6>
+          <p class="example-description">The results of <em>Physical</em>, <em>Chemical</em>, and <em>Microscopic</em> are normal.</p>
+        </div>
+      </div>
+      <div class="row example">
+        <a class="example-screenshot-wrapper" target="_blank" href="pdf/reports/01-10-2019-sugar.pdf">
+          <img class="example-screenshot" src="images/reports/01-10-2019-sugar.jpg">
+        </a>
+        <div class="one-half offset-by-one-half column">
+          <h6 class="example-header">10 Jan'19 Sugar</h6>
+          <p class="example-description"><strong>Sugar</strong> is absent in <em>urine</em> but present in high levels in blood.</p>
+        </div>
+      </div>
+      <div class="row example">
+        <a class="example-screenshot-wrapper" target="_blank" href="pdf/reports/01-10-2019-renal.pdf">
+          <img class="example-screenshot" src="images/reports/01-10-2019-renal.jpg">
+        </a>
+        <div class="one-half offset-by-one-half column">
+          <h6 class="example-header">10 Jan'19 Renal Profile</h6>
+          <p class="example-description"><strong>Total Proteins</strong> is <em>higher</em> than normal level.</p>
+        </div>
+      </div>
+      <div class="row example">
+        <a class="example-screenshot-wrapper" target="_blank" href="pdf/reports/01-10-2019-haemoglobin.pdf">
+          <img class="example-screenshot" src="images/reports/01-10-2019-haemoglobin.jpg">
+        </a>
+        <div class="one-half offset-by-one-half column">
+          <h6 class="example-header">10 Jan'19 Haemoglobin</h6>
+          <p class="example-description">hbA1C is normal.</p>
+        </div>
+      </div>
+      <div class="row example">
+        <a class="example-screenshot-wrapper" target="_blank" href="pdf/reports/01-10-2019-esr.pdf">
+          <img class="example-screenshot" src="images/reports/01-10-2019-esr.jpg">
+        </a>
+        <div class="one-half offset-by-one-half column">
+          <h6 class="example-header">10 Jan'19 Erythrocytes Sedimentation Rate (ESR)</h6>
+          <p class="example-description"><strong>Westergren</strong> is <em>higher</em> than normal level.</p>
+        </div>
+      </div>
+      <div class="row example">
+        <a class="example-screenshot-wrapper" target="_blank" href="pdf/reports/01-10-2019-chikunguniya.pdf">
+          <img class="example-screenshot" src="images/reports/01-10-2019-chikunguniya.jpg">
+        </a>
+        <div class="one-half offset-by-one-half column">
+          <h6 class="example-header">10 Jan'19 Chikunguniya</h6>
+          <p class="example-description"><strong>Chikunguniya</strong> test is <em>negative</em>.</p>
+        </div>
+      </div>
+      <div class="row example">
+        <a class="example-screenshot-wrapper" target="_blank" href="pdf/reports/01-10-2019-cbc.pdf">
+          <img class="example-screenshot" src="images/reports/01-10-2019-cbc.jpg">
+        </a>
+        <div class="one-half offset-by-one-half column">
+          <h6 class="example-header">10 Jan'19 Complete Blood Count (CBC)</h6>
+          <p class="example-description"><strong>Hameoglobin</strong> and other blood indicators in this test are not <em>normal</em>.</p>
+        </div>
+      </div>
+      <div class="row example">
+        <a class="example-screenshot-wrapper" target="_blank" href="pdf/reports/01-10-2019-anti-ccp.pdf">
+          <img class="example-screenshot" src="images/reports/01-10-2019-anti-ccp.jpg">
+        </a>
+        <div class="one-half offset-by-one-half column">
+          <h6 class="example-header">10 Jan'19 Anti Cyclic Citrulinated Peptide (ANTI-CCP)</h6>
+          <p class="example-description">ANTI-CCP is normal.</p>
+        </div>
+      </div>
+      <div class="row example">
+        <a class="example-screenshot-wrapper" target="_blank" href="pdf/reports/01-03-2019-cbc-tsh-vitamin-cholesterol.pdf">
+          <img class="example-screenshot" src="images/reports/01-03-2019-cbc-tsh-vitamin-cholesterol.jpg">
+        </a>
+        <div class="one-half offset-by-one-half column">
+          <h6 class="example-header">3 Jan'19 CBC TSH Vitamin Cholesterol</h6>
+          <p class="example-description"><strong>Hameoglobin</strong> and other blood indicators in this test are not <em>normal</em>.</p>
+          <p class="example-description">Maleria is not detected.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- Google Analytics -->
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33397759-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
